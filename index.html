@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="shortcut icon" href="img/mario_8-bit.png" type="image/x-icon">
+    <title>Зал славы ретро-игр</title>
+</head>
+<body>
+    <nav>
+        <a href="#index" onclick="index()">Зал славы</a><br>
+        <a href="#about" onclick="about()">О сайте</a><br>
+        <a href="#settings" onclick="settings()">Настройки</a>
+    </nav>
+    <h1 id="h1">Зал славы </h1>
+    <p id="p" style="text-align: center;">легендарных ретро-игр (нажми на название игры)</p>
+    <p id="p2"></p>
+    <img src="" alt="" id="img">
+    <div class="games" id="games">
+        <div class="game" onclick="func1()">
+            <h3>Легенда</h3>
+            <h2>PAC-MAN <br> (1980)</h2>
+        </div>
+        <div class="game" onclick="func2()">
+            <h3>Классический</h3>
+            <h2>SPACE INVADERS <br> (1978)</h2>
+        </div>
+        <div class="game" onclick="func3()">
+            <h3>Охотник</h3>
+            <h2>DONKEY KONG <br> (1981)</h2>
+        </div>
+        <div class="game" onclick="func4()">
+            <h3>Герой</h3>
+            <h2>SUPER MARIO BROS. <br> (1985)</h2>
+        </div>
+        <div class="game" onclick="func5()">
+            <h3>Спидстер</h3>
+            <h2>TETRIS (1984)</h2>
+        </div>
+        <div class="game" onclick="func6()">
+            <h3>Легенда</h3>
+            <h2>FINAL FANTASY VII <br> (1997)</h2>
+        </div>
+        <div class="game" onclick="func7()">
+            <h3>Боец</h3>
+            <h2>DOOM <br> (1993)</h2>
+        </div>
+        <div class="game" onclick="func8()">
+            <h3>Спидстер</h3>
+            <h2>SONIC THE HEDGEHOG <br> (1991)</h2>
+        </div>
+        <div class="game" onclick="func9()">
+            <h3>Классический</h3>
+            <h2>THE LEGEND OF ZELDA <br> (1986)</h2>
+        </div>
+        <div class="game" onclick="func10()">
+            <h3>Стратег</h3>
+            <h2>STARCRAFT <br> (1998)</h2>
+        </div>
+    </div>
+    <div class="about" id="about">
+        <p style="text-align: center;">На нашем сайте представлена увлекательная подборка материалов о культовых ретро-играх, создававших атмосферу и задавших тон развитию всей игровой индустрии в конце XX и начале XXI веков. Ретро-дизайн и визуализация переносят вас обратно в эпоху великих хитов вроде Pac-Man, Donkey Kong и Mario Bros., вызывая приятные воспоминания и чувство ностальгии.
+        <br><br>
+        Проект реализован в рамках конкурса TOA и предназначен для энтузиастов и ценителей классической игровой культуры. Наслаждайтесь путешествием в удивительную вселенную ретро-игр!</p>
+    </div>
+    <div class="settings" id="settings">
+        <p style="text-align: left; margin-top: 60px; margin-left: 20px;"><a href="#" id="theme" class="button" onclick="theme()">Изменить тему</a></p> 
+        <p style="color: gray; margin: 50px 0px 20px 20px; text-align: left;">Не знал чего добавить еще , <br> поэтому вот :</p>
+        <p style="text-align: left; margin-top: 60px; margin-left: 20px;"><a href="#" id="audio" class="button" onclick="player()">Включить музыку</a></p>
+    </div>
+    <p style="text-align: right;"><a class="author" href="https://learn.algoritmika.org/student-profile?profileId=2152101">Автор сайта</a></p>
+    <audio src="audio/Super_Mario.mp3" id="music"></audio>
+    <script src="js/script.js"></script>
+</body>
+</html>
